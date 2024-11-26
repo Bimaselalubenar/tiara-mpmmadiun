@@ -1,0 +1,16 @@
+.btndefault {
+  cursor: pointer;
+  margin-bottom: 16px;
+  color: #f26f21;
+  border: 2px solid #f26f21 ;
+}
+
+.btndefault:hover, .btndefault:active {
+  background: #f26f21;
+  color: var(--bs-body-bg);
+  transition: ease 0.5s;
+  transform: translate(0px) translateY(-5px);
+  box-shadow: 0px 5px #c35615, 0px 8px 4px 1px rgba(0,0,0,0.48);
+  border-color: #ffffff;
+}
+
