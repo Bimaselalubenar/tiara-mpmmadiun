@@ -14,3 +14,9 @@
   border-color: #ffffff;
 }
 
+/* Hides both horizontal and vertical scrollbars */
+
+.scrollbarnone::-webkit-scrollbar {
+  display: none;
+}
+
